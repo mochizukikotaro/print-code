@@ -8,11 +8,12 @@
   "activationCommands": {
     "atom-workspace": "print-code:print"
   },
-  "repository": "https://github.com/atom/print-code",
+  "repository": "https://github.com/mochizukikotaro/print-code",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "jquery": "^3.1.1"
   }
 }
