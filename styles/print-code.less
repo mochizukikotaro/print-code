@@ -5,7 +5,39 @@
 @import "ui-variables";
 
 
+// ============================
+// window size
+// ============================
 
-atom-text-editor .gutter .line-number {
-  color:red;
+html,
+body {
+  height: 2000px !important;
+}
+
+html.print-code,
+body.print-code,
+atom-workspace.print-code,
+atom-text-editor.print-code,
+atom-text-editor .gutter.print-code,
+atom-text-editor .scroll-view.print-code,
+atom-pane-container atom-pane.print-code {
+  overflow: visible !important;
+}
+
+
+// ============================
+// border delete
+// ============================
+
+atom-pane-container atom-pane .item-views,
+atom-panel.left,
+atom-panel.panel-left,
+.tool-panel.left,
+.tool-panel.panel-left,
+.tab-bar:after {
+  border: solid 1px red !important;
+}
+
+.title-bar{
+  border: solid 1px yellow !important;
 }
