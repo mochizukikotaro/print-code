@@ -6,7 +6,11 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "print-code:print"
+    "atom-workspace": [
+        "print-code:go",
+        "print-code:print",
+        "print-code:back"
+      ]
   },
   "repository": "https://github.com/mochizukikotaro/print-code",
   "license": "MIT",
