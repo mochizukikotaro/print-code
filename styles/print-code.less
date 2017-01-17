@@ -8,27 +8,33 @@
 // ============================
 // window size
 // ============================
-
-html,
-body {
+html.print-code,
+body.print-code {
   height: 2000px !important;
 }
 
 html.print-code,
 body.print-code,
-atom-workspace.print-code,
-atom-text-editor.print-code,
-atom-text-editor .gutter.print-code,
-atom-text-editor .scroll-view.print-code,
 atom-pane-container atom-pane.print-code {
   overflow: visible !important;
 }
 
+// ============================
+// display none
+// ============================
+.tab-bar.print-code {
+  display: none;
+}
+atom-pane-container atom-pane.pane.print-code {
+  flex-grow: 0 !important;
+  &.active {
+    flex-grow: 1 !important;
+  }
+}
 
 // ============================
-// border delete
+// border none
 // ============================
-
 atom-pane-container atom-pane .item-views,
 atom-panel.left,
 atom-panel.panel-left,
@@ -37,7 +43,6 @@ atom-panel.panel-left,
 .tab-bar:after {
   border: solid 1px red !important;
 }
-
 .title-bar{
   border: solid 1px yellow !important;
 }

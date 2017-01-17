@@ -1,5 +1,7 @@
 {
   "atom-workspace": {
-    "cmd-2": "print-code:print"
+    "cmd-2": "print-code:go",
+    "cmd-3": "print-code:print",
+    "cmd-4": "print-code:back"
   }
 }
