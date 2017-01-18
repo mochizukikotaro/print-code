@@ -15,14 +15,6 @@
           "label": "print-code",
           "submenu": [
             {
-              "label": "Go",
-              "command": "print-code:go"
-            },
-            {
-              "label": "Back",
-              "command": "print-code:back"
-            },
-            {
               "label": "Print",
               "command": "print-code:print"
             }

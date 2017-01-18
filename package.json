@@ -2,14 +2,12 @@
   "name": "print-code",
   "main": "./lib/print-code",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Print souce code which in active pane",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": [
-        "print-code:go",
-        "print-code:print",
-        "print-code:back"
+        "print-code:print"
       ]
   },
   "repository": "https://github.com/mochizukikotaro/print-code",
