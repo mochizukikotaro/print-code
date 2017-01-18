@@ -35,14 +35,21 @@ atom-pane-container atom-pane.pane.print-code {
 // ============================
 // border: none
 // ============================
-atom-pane-container atom-pane .item-views,
-atom-panel.left,
-atom-panel.panel-left,
-.tool-panel.left,
-.tool-panel.panel-left,
-.tab-bar:after {
-  border: solid 1px red !important;
+body.print-code {
+  atom-pane-container atom-pane .item-views,
+  atom-panel.left,
+  atom-panel.panel-left,
+  .tool-panel.left,
+  .tool-panel.panel-left,
+  .tab-bar:after {
+    border: none !important;
+  }
 }
-.title-bar{
-  border: solid 1px yellow !important;
+
+// ============================
+// title-bar design
+// ============================
+.print-code .title-bar {
+  border: dotted 1px #ccc !important;
+  margin-bottom: 20px !important;
 }
