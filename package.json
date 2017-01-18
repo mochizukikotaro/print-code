@@ -1,7 +1,7 @@
 {
   "name": "print-code",
   "main": "./lib/print-code",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Print souce code which in active pane",
   "keywords": [],
   "activationCommands": {
