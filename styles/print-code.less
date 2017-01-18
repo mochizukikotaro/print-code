@@ -6,13 +6,8 @@
 
 
 // ============================
-// window size
+// overflow: visible
 // ============================
-html.print-code,
-body.print-code {
-  height: 2000px !important;
-}
-
 html.print-code,
 body.print-code,
 atom-pane-container atom-pane.print-code {
@@ -20,11 +15,16 @@ atom-pane-container atom-pane.print-code {
 }
 
 // ============================
-// display none
+// display: none
 // ============================
+atom-panel-container.print-code,
 .tab-bar.print-code {
   display: none;
 }
+
+// ============================
+// flex-grow
+// ============================
 atom-pane-container atom-pane.pane.print-code {
   flex-grow: 0 !important;
   &.active {
@@ -33,7 +33,7 @@ atom-pane-container atom-pane.pane.print-code {
 }
 
 // ============================
-// border none
+// border: none
 // ============================
 atom-pane-container atom-pane .item-views,
 atom-panel.left,
