@@ -6,7 +6,8 @@
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "print-code:print"
+      "print-code:print",
+      "print-code:reset"
     ]
   },
   "repository": "https://github.com/mochizukikotaro/print-code",

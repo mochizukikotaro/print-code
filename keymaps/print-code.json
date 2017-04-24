@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "cmd-3": "print-code:print"
+    "cmd-3": "print-code:print",
+    "cmd-4": "print-code:reset"
   }
 }

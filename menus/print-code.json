@@ -4,6 +4,10 @@
       {
         "label": "Print print-code",
         "command": "print-code:print"
+      },
+      {
+        "label": "Print print-reset",
+        "command": "print-code:reset"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Print",
               "command": "print-code:print"
+            },
+            {
+              "label": "Reset",
+              "command": "print-code:reset"
             }
           ]
         }
