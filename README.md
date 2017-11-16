@@ -1,6 +1,6 @@
 # print-code package
 
-Print source code which in active pane.
+Print the source code in the active pane.
 
 ## Usage
 
